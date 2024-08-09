@@ -222,7 +222,6 @@ def main():
             torch.save(best_preds, f'../teacher_models/seed{seed}.pt')
         else:
             torch.save(model.state_dict(), f'../student_models/DIMTSD_seed{seed}.pt')
-            torch.save(model, f'../student_models/seed{seed}.pt')
 
         print("*" * 20)
         print(f"dev results with seed {seed} on all epochs")
