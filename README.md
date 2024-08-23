@@ -1,0 +1,2 @@
+These models are used for stance detection task of texts with more than one target which is called multi-target stance detection. The innovation is the independenty of models from domain which means they can be used for unseen domains.
+"dimts_prompt" model has implemented using prompt-tuning and "dimts" model has immplemented like other common classification tasks. "dimtsd" model has reached better results.
