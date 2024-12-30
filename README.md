@@ -1,2 +1,2 @@
 These models are used for stance detection task of texts with more than one target which is called multi-target stance detection. The innovation is reducing the dependency of models on domain which means they can be used for unseen domains.
-"dimts_prompt" model has implemented using prompt-tuning and "dimts" model has immplemented like other common classification tasks. "dimtsd" model has reached better results.
+"CDMTSD" stands for "Cross-Domain Multi-Target Stance Detectionn". "CDMTSD_prompt" model has implemented using prompt-tuning and "CDMTSD_single" model has immplemented like other common classification tasks. "CDMTSD_single" model has reached better results.
